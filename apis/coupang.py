@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import os
 import requests
 import json
@@ -9,7 +8,6 @@ import time
 import random
 import logging
 from urllib import parse
-
 
 from _hidden import _keys
 from data import keywords
@@ -23,7 +21,6 @@ DOMAIN = "https://api-gateway.coupang.com"
 
 LOG_FILENAME = 'coupang.log'
 logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
-
 
 
 def generate_hmac(method, url, secret_key, access_key):
@@ -40,11 +37,8 @@ def generate_hmac(method, url, secret_key, access_key):
                                                                                           signature)
 
 
-def get_product():
-    keyword = random.sample(keywords.keyword_list, 1)[0]
-    url_keyword = parse.quote(keyword)
-    limit = 10
-    url = f"/v2/providers/affiliate_open_api/apis/openapi/products/search?keyword={url_keyword}&limit={limit}"
+def search_product():
+    url = f"/v2/providers/affiliate_open_api/apis/openapi/products/search?keyword={parse.quote(keyword)}&limit=10"
     method = 'GET'
     authorization = generate_hmac(method, url, _keys.API_KEY['COUPANG_SECRET_KEY'],
                                   _keys.API_KEY['COUPANG_ACCESS_KEY'])

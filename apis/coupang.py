@@ -5,12 +5,11 @@ import json
 import hmac
 import hashlib
 import time
-import random
 import logging
 from urllib import parse
 
 from _hidden import _keys
-from data import keywords
+from data.keywords import keyword
 
 # from db import db
 

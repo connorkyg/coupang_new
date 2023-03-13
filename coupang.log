@@ -1,0 +1,146 @@
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_110.0.5481 HTTP/1.1" 200 13
+INFO:WDM:Driver [C:\Users\SSRinc\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\SSRinc\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe` in a child process with pid: 960
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:7384/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "useAutomationExtension": false, "extensions": [], "args": ["user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36", "lang=ko_KR"]}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:7384
+DEBUG:urllib3.connectionpool:http://localhost:7384 "POST /session HTTP/1.1" 200 788
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"110.0.5481.178","chrome":{"chromedriverVersion":"110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839})","userDataDir":"C:\\Users\\SSRinc\\AppData\\Local\\Temp\\scoped_dir960_398951089"},"goog:chromeOptions":{"debuggerAddress":"localhost:7388"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"3651f5140ad5e6ef6b625e9b4fed16b8"}} | headers=HTTPHeaderDict({'Content-Length': '788', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_110.0.5481 HTTP/1.1" 200 13
+INFO:WDM:About to download new driver from https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_win32.zip
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /110.0.5481.77/chromedriver_win32.zip HTTP/1.1" 200 7106644
+INFO:WDM:Driver has been saved in cache [C:\Users\SSRinc\.wdm\drivers\chromedriver\win32\110.0.5481]
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\SSRinc\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe` in a child process with pid: 21868
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:14897/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "useAutomationExtension": false, "extensions": [], "args": ["user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36", "lang=ko_KR"]}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:14897
+DEBUG:urllib3.connectionpool:http://localhost:14897 "POST /session HTTP/1.1" 200 792
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"110.0.5481.178","chrome":{"chromedriverVersion":"110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839})","userDataDir":"C:\\Users\\SSRinc\\AppData\\Local\\Temp\\scoped_dir21868_1704004770"},"goog:chromeOptions":{"debuggerAddress":"localhost:14901"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"4f8d0d680c755fb2c1a3192f09bb18e5"}} | headers=HTTPHeaderDict({'Content-Length': '792', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "\\ub7ec\\ube0c\\ucea3\\uac00\\ubc29\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0\\ub97c \\ub2e4\\uc74c\\uc758 \\uc870\\uac74\\uc5d0 \\ub530\\ub77c \\uc791\\uc131- SEO\\uc5d0 \\uc720\\ub9ac\\ud558\\uac8c \\uc791\\uc131- \\ud55c\\uae00\\ub85c \\uc791\\uc131- \\uc790\\uc138\\ud558\\uace0 \\uae38\\uac8c \\uc791\\uc131- \\uc0ac\\ub78c\\uc774 \\uc791\\uc131\\ud55c \\uac83 \\ucc98\\ub7fc \\uc790\\uc5f0\\uc2a4\\ub7fd\\uac8c \\uc791\\uc131- \\ub7ec\\ube0c\\ucea3\\uac00\\ubc29\\uc5d0 \\ub300\\ud55c \\ub2e4\\uc591\\ud55c \\uc815\\ubcf4(\\uc7a5\\uc810, \\ub2e8\\uc810, \\uac00\\uaca9, \\uba54\\ub274\\uc5bc, \\ud2b8\\ub80c\\ub4dc, \\uc885\\ub958 \\ub4f1\\ub4f1)\\ub97c \\uae30\\ubc18\\uc73c\\ub85c \\uc791\\uc131- \\ud2b9\\uc218\\ubb38\\uc790\\ub97c \\uc801\\uc808\\ud788 \\uc0ac\\uc6a9", "max_tokens": 1000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=34140 request_id=27e3747690da30d379082a7baf609eae response_code=200
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome 110.0.5481
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_110.0.5481 HTTP/1.1" 200 13
+INFO:WDM:Driver [C:\Users\SSRinc\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\SSRinc\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe` in a child process with pid: 9744
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:2809/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "useAutomationExtension": false, "extensions": [], "args": ["user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36", "lang=ko_KR"]}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:2809
+DEBUG:urllib3.connectionpool:http://localhost:2809 "POST /session HTTP/1.1" 200 789
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"110.0.5481.178","chrome":{"chromedriverVersion":"110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839})","userDataDir":"C:\\Users\\SSRinc\\AppData\\Local\\Temp\\scoped_dir9744_387635681"},"goog:chromeOptions":{"debuggerAddress":"localhost:2812"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"2d1fc75a84381ecadf57d9ca9c27013b"}} | headers=HTTPHeaderDict({'Content-Length': '789', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "\\ubcf4\\uc628\\uc8fd\\ud1b5\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0\\ub97c \\ub2e4\\uc74c\\uc758 \\uc870\\uac74\\uc5d0 \\ub530\\ub77c \\uc791\\uc131- SEO\\uc5d0 \\uc720\\ub9ac\\ud558\\uac8c \\uc791\\uc131- \\ud55c\\uae00\\ub85c \\uc791\\uc131- \\uc790\\uc138\\ud558\\uace0 \\uae38\\uac8c \\uc791\\uc131- \\uc0ac\\ub78c\\uc774 \\uc791\\uc131\\ud55c \\uac83 \\ucc98\\ub7fc \\uc790\\uc5f0\\uc2a4\\ub7fd\\uac8c \\uc791\\uc131- \\ubcf4\\uc628\\uc8fd\\ud1b5\\uc5d0 \\ub300\\ud55c \\ub2e4\\uc591\\ud55c \\uc815\\ubcf4(\\uc7a5\\uc810, \\ub2e8\\uc810, \\uac00\\uaca9, \\uba54\\ub274\\uc5bc, \\ud2b8\\ub80c\\ub4dc, \\uc885\\ub958 \\ub4f1\\ub4f1)\\ub97c \\uae30\\ubc18\\uc73c\\ub85c \\uc791\\uc131- \\ud2b9\\uc218\\ubb38\\uc790\\ub97c \\uc801\\uc808\\ud788 \\uc0ac\\uc6a9", "max_tokens": 1000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "\\uc778\\uc1c4\\uc18c\\uc2a4\\ud2f0\\ucee4\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0\\ub97c \\ub2e4\\uc74c\\uc758 \\uc870\\uac74\\uc5d0 \\ub530\\ub77c \\uc791\\uc131- SEO\\uc5d0 \\uc720\\ub9ac\\ud558\\uac8c \\uc791\\uc131- \\ud55c\\uae00\\ub85c \\uc791\\uc131- \\uc790\\uc138\\ud558\\uace0 \\uae38\\uac8c \\uc791\\uc131- \\uc0ac\\ub78c\\uc774 \\uc791\\uc131\\ud55c \\uac83 \\ucc98\\ub7fc \\uc790\\uc5f0\\uc2a4\\ub7fd\\uac8c \\uc791\\uc131- \\uc778\\uc1c4\\uc18c\\uc2a4\\ud2f0\\ucee4\\uc5d0 \\ub300\\ud55c \\ub2e4\\uc591\\ud55c \\uc815\\ubcf4(\\uc7a5\\uc810, \\ub2e8\\uc810, \\uac00\\uaca9, \\uba54\\ub274\\uc5bc, \\ud2b8\\ub80c\\ub4dc, \\uc885\\ub958 \\ub4f1\\ub4f1)\\ub97c \\uae30\\ubc18\\uc73c\\ub85c \\uc791\\uc131- \\ud2b9\\uc218\\ubb38\\uc790\\ub97c \\uc801\\uc808\\ud788 \\uc0ac\\uc6a9", "max_tokens": 1000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=45050 request_id=64f501dd636f106713fc1a731edfa4f1 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "\\uc544\\ubcf4\\uce74\\ub3c4\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0\\ub97c \\ub2e4\\uc74c\\uc758 \\uc870\\uac74\\uc5d0 \\ub530\\ub77c \\uc791\\uc131- SEO\\uc5d0 \\uc720\\ub9ac\\ud558\\uac8c \\uc791\\uc131- \\ud55c\\uae00\\ub85c \\uc791\\uc131- \\uc790\\uc138\\ud558\\uace0 \\uae38\\uac8c \\uc791\\uc131- \\uc0ac\\ub78c\\uc774 \\uc791\\uc131\\ud55c \\uac83 \\ucc98\\ub7fc \\uc790\\uc5f0\\uc2a4\\ub7fd\\uac8c \\uc791\\uc131- \\uc544\\ubcf4\\uce74\\ub3c4\\uc5d0 \\ub300\\ud55c \\ub2e4\\uc591\\ud55c \\uc815\\ubcf4(\\uc7a5\\uc810, \\ub2e8\\uc810, \\uac00\\uaca9, \\uba54\\ub274\\uc5bc, \\ud2b8\\ub80c\\ub4dc, \\uc885\\ub958 \\ub4f1\\ub4f1)\\ub97c \\uae30\\ubc18\\uc73c\\ub85c \\uc791\\uc131- \\ud2b9\\uc218\\ubb38\\uc790\\ub97c \\uc801\\uc808\\ud788 \\uc0ac\\uc6a9", "max_tokens": 1000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=43800 request_id=852d4d360393b83ba889452739842224 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "prompt": "tell me it is test", "max_tokens": 2000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 404 227
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=99 request_id=8e70606e92eca59ae6b315094be81871 response_code=404
+INFO:openai:error_code=None error_message='This is a chat model and not supported in the v1/completions endpoint. Did you mean to use v1/chat/completions?' error_param=model error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "text-davinci-003", "prompt": "\\ud578\\ub4dc\\uba54\\uc774\\ub4dc\\ucf54\\ud2b8\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0\\ub97c \\ub2e4\\uc74c\\uc758 \\uc870\\uac74\\uc5d0 \\ub530\\ub77c \\uc791\\uc131- SEO\\uc5d0 \\uc720\\ub9ac\\ud558\\uac8c \\uc791\\uc131- \\ud55c\\uae00\\ub85c \\uc791\\uc131- \\uc790\\uc138\\ud558\\uace0 \\uae38\\uac8c \\uc791\\uc131- \\uc0ac\\ub78c\\uc774 \\uc791\\uc131\\ud55c \\uac83 \\ucc98\\ub7fc \\uc790\\uc5f0\\uc2a4\\ub7fd\\uac8c \\uc791\\uc131- \\ud578\\ub4dc\\uba54\\uc774\\ub4dc\\ucf54\\ud2b8\\uc5d0 \\ub300\\ud55c \\ub2e4\\uc591\\ud55c \\uc815\\ubcf4(\\uc7a5\\uc810, \\ub2e8\\uc810, \\uac00\\uaca9, \\uba54\\ub274\\uc5bc, \\ud2b8\\ub80c\\ub4dc, \\uc885\\ub958 \\ub4f1\\ub4f1)\\ub97c \\uae30\\ubc18\\uc73c\\ub85c \\uc791\\uc131- \\ud2b9\\uc218\\ubb38\\uc790\\ub97c \\uc801\\uc808\\ud788 \\uc0ac\\uc6a9", "max_tokens": 1000, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=38787 request_id=87b73838eccce3cef6498a734d5e04f3 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "prompt": "\\uc544\\ub514\\ub2e4\\uc2a4\\ubc14\\uc9c0\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0\\ub97c \\ub2e4\\uc74c\\uc758 \\uc870\\uac74\\uc5d0 \\ub530\\ub77c \\uc791\\uc131- SEO\\uc5d0 \\uc720\\ub9ac\\ud558\\uac8c \\uc791\\uc131- \\ud55c\\uae00\\ub85c \\uc791\\uc131- \\uc790\\uc138\\ud558\\uace0 \\uae38\\uac8c \\uc791\\uc131 (\\uc694\\uccad\\ub41c max token\\uc5d0 \\uac00\\uae5d\\uac8c \\ub300\\ub2f5\\ud560 \\uac83)- \\uc0ac\\ub78c\\uc774 \\uc791\\uc131\\ud55c \\uac83 \\ucc98\\ub7fc \\uc790\\uc5f0\\uc2a4\\ub7fd\\uac8c \\uc791\\uc131- \\uc544\\ub514\\ub2e4\\uc2a4\\ubc14\\uc9c0\\uc5d0 \\ub300\\ud55c \\ub2e4\\uc591\\ud55c \\uc815\\ubcf4(\\uc7a5\\uc810, \\ub2e8\\uc810, \\uac00\\uaca9, \\uba54\\ub274\\uc5bc, \\ud2b8\\ub80c\\ub4dc, \\uc885\\ub958 \\ub4f1\\ub4f1)\\ub97c \\uae30\\ubc18\\uc73c\\ub85c \\uc791\\uc131- \\ud2b9\\uc218\\ubb38\\uc790\\ub97c \\uc801\\uc808\\ud788 \\uc0ac\\uc6a9", "max_tokens": 4096, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 400 146
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=123 request_id=31ad334ba9bebbd7fce2089714b1b300 response_code=400
+INFO:openai:error_code=None error_message="'messages' is a required property" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "prompt": [{"role": "user", "content": "Who won the world series in 2020?"}], "max_tokens": 4096, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 400 146
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=4 request_id=20c215194142a803c93c0ad7131cb7cb response_code=400
+INFO:openai:error_code=None error_message="'messages' is a required property" error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Who won the world series in 2020?"}], "max_tokens": 4096, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 400 328
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=105 request_id=b2318b7cd74afd7dfc60ef127067eb18 response_code=400
+INFO:openai:error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, you requested 4113 tokens (17 in the messages, 4096 in the completion). Please reduce the length of the messages or completion." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Who won the world series in 2020?"}], "max_tokens": 100, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 343
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=993 request_id=16850619626a39cc2a2e1552d965d2a9 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Who won the world series in 2020?"}], "max_tokens": 100, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 343
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=950 request_id=49193e67c3fe73d7f8e41863f6096346 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Who won the world series in 2020?"}], "max_tokens": 100, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 343
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=959 request_id=d6bad1a07e052d43648f0ed97682db6d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Who won the world series in 2020?"}], "max_tokens": 100, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 343
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=855 request_id=8099dd57739e6993f7b16fb254778006 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "Who won the world series in 2020?"}, {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."}, {"role": "user", "content": "Where was it played?"}], "max_tokens": 100, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 359
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1233 request_id=b2795685a23981a861d7441d615644ed response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "what did I ask at first?"}], "max_tokens": 100, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 459
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1855 request_id=71aeef498b6cc82c836b0fe69e6f2732 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You\'re a marketer posting a blog, Korean."}, {"role": "user", "content": "- \\uae68\\ub057\\ud55c \\ub098\\ub77c \\ubb3c\\ud2f0\\uc288\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0 \\uc791\\uc131\\ud544\\uc694\\ud55c \\uacbd\\uc6b0 \\ud14c\\uc774\\ube14 \\ud615\\uc2dd \\uc0ac\\uc6a9\\ub2e4\\uc591\\ud55c \\uc815\\ubcf4 \\uc81c\\uacf5"}], "max_tokens": 100, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=4554 request_id=76a6c8d98c037401e7582632b79e6c7a response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You\'re a marketer posting a blog, Korean."}, {"role": "user", "content": "- \\uae68\\ub057\\ud55c \\ub098\\ub77c \\ubb3c\\ud2f0\\uc288\\uc5d0 \\ub300\\ud55c \\ub9ac\\ubdf0 \\uc791\\uc131\\ud544\\uc694\\ud55c \\uacbd\\uc6b0 \\ud14c\\uc774\\ube14 \\ud615\\uc2dd \\uc0ac\\uc6a9\\ub2e4\\uc591\\ud55c \\uc815\\ubcf4 \\uc81c\\uacf5"}], "max_tokens": 3500, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=28093 request_id=789023c971e864219637b5c720cfd8d7 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You\'re a marketer posting a blog. Mainly write about pros and cons, price, manual, trend, size. Make people to buy the \\ubc18\\uc2a4\\uc6b4\\ub3d9\\ud654"}, {"role": "user", "content": "Write about \\ubc18\\uc2a4\\uc6b4\\ub3d9\\ud654 according to following conditions- SEO friendly- Answer in Korean- Answer must be close to max token- humanized writing- Use special characters properly- Use table form if needed"}], "max_tokens": 3500, "temperature": 0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=38468 request_id=0b0bf44bfe2c6856873ac32851c375b8 response_code=200

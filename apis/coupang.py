@@ -39,8 +39,8 @@ def generate_hmac(method, url, secret_key, access_key):
 def search_product():
     url = f"/v2/providers/affiliate_open_api/apis/openapi/products/search?keyword={parse.quote(keyword)}&limit=10"
     method = 'GET'
-    authorization = generate_hmac(method, url, _keys.API_KEY['COUPANG_SECRET_KEY'],
-                                  _keys.API_KEY['COUPANG_ACCESS_KEY'])
+    authorization = generate_hmac(method, url, _keys.COUPANG['ACCOUNT']['API_KEY']['COUPANG_SECRET_KEY'],
+                                  _keys.COUPANG['ACCOUNT']['API_KEY']['COUPANG_ACCESS_KEY'])
     coupang_url = '{}{}'.format(DOMAIN, url)
     response = requests.request(method=method, url=coupang_url,
                                 headers={"Authorization": authorization, "Content-Type": "application/json"})
@@ -48,17 +48,17 @@ def search_product():
         logging.error(response.text)
         exit()
     else:
-        os.makedirs('./log', exist_ok=True)
-        with open(file='./log/coupang_api.txt', mode='w+', encoding='utf-8') as f:
+        os.makedirs('log', exist_ok=True)
+        with open(file='log/coupang_api.txt', mode='w+', encoding='utf-8') as f:
             f.write(f'{now_log} API request\n')
             f.write(f'\t\t\t\t\t{response.url}')
         retdata = json.dumps(response.json(), indent=4).encode('utf-8')
         jsondata = json.loads(retdata)
         data = jsondata['data']
         productdata = data['productData']
-        with open(f'./log/product_data_{now}.txt', 'w+', encoding='utf-8') as f:
+        with open(f'log/product_data_{now}.txt', 'w+', encoding='utf-8') as f:
             f.write(str(productdata))
-        with open(f'./log/jsondata_{now}.txt', 'w+', encoding='utf-8') as f:
+        with open(f'log/jsondata_{now}.txt', 'w+', encoding='utf-8') as f:
             f.write(json.dumps(productdata))
 
         return productdata

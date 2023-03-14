@@ -19,10 +19,8 @@ openai.api_key = SECRET_KEY
 #     )
 #     response = json.loads(json.dumps(completion))
 #     text = response['choices'][0]['text']
-#     with open(file='gpt.log', mode='w+', encoding='utf-8') as f:
+#     with open(file='%s_gpt.log' % now, mode='w+', encoding='utf-8') as f:
 #         f.write(text)
-#
-#     print(text)
 #
 #     try:
 #         db.insert_request_info(ri_type='gpt', ri_raw=response, ri_payload=text)
@@ -32,7 +30,7 @@ openai.api_key = SECRET_KEY
 #     return text
 
 
-def command_turbo(cmd):
+def completion_turbo(cmd):
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=cmd,
@@ -44,11 +42,9 @@ def command_turbo(cmd):
     with open(file='%s_gpt.log' % now, mode='w+', encoding='utf-8') as f:
         f.write(text)
 
-    print(text)
-
     try:
         db.insert_request_info(ri_type='gpt', ri_raw=response, ri_payload=text)
     except Exception as e:
         print(e)
 
-    return 0
+    return text

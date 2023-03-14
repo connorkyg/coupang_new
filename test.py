@@ -1,17 +1,10 @@
-import requests
+import time
+import random
+from data import keywords
 
-# 요청 보내기
-url = "https://api.openai.com/v1/completions"
-headers = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer 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",
-}
-data = {
-    "prompt": "Hello, world!",
-    "temperature": 0.5,
-    "max_tokens": 100,
-    "model": "text-davinci-003"
-}
-response = requests.post(url, json=data, headers=headers)
-
-print(response.text)
+rnd = 3
+kwrd = [[] for _ in range(rnd)]
+for i in range(rnd):
+    kwrd[i] = random.choice(keywords.keyword_list)
+    print(kwrd[i])
+    time.sleep(1)

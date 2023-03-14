@@ -1,2 +1,4 @@
 data
 _hidden
+*.log
+*.txt
